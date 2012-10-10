@@ -1,5 +1,6 @@
 GhProjectsInspector::Application.routes.draw do
   get "settings" => "settings#index"
+  post "settings/update_credential" => "settings#update_credential"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
