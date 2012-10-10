@@ -1,4 +1,6 @@
 GhProjectsInspector::Application.routes.draw do
+  get "settings" => "settings#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
